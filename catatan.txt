@@ -1,0 +1,106 @@
+=================== Managemen Process top ==================
+top
+	task manager
+	saat muncul ada optional : 
+		s = update berapa kali
+		l,t,m = menampilkan/menghilangkan panel atas
+		n = melimit process yg tampil
+		M = sort by memory
+		P = sort by CPU 
+		c = melihat nama lengkap dari process yg berjalan
+		k = kill by id
+		f/F = managemen kolom
+
+=================== MANAGEMEN PROCESS =======================
+ps aux
+	melihat process yang sedang berjalan dibalik layar
+		ex : ps aux | grep -i mozila
+kill idprocess -9
+	mematikan process 
+	-9 = force close
+		ex : kill -9 12332 	
+
+killall
+	kill semua process by nama
+
+=============== PEMROGRAMAN DASAR C & GCC ====================
+gcc -o namaprogram
+	gnue compiler bawaan linux
+	ketika kita menjalankan akan muncul output hasil compiler
+	-o = nama penamaan output
+./	
+	untuk menjalankan program/hasil output
+
+=================== REDIRECTIO ==========================
+adalah pengalihan output
+> 
+	untuk pengalihan
+		ex : ls -lah > output_ls.txt
+echo 
+	untuk menulis output
+cat
+	menampilkan standar output dalam .txt
+		ex : cat > cobacat.txt (enter) ketik sesuatu (enter) lagi (ctrl + d)
+>>
+	untuk pengalihan append
+		ex : echo "wakakaka eee" >> output_ls.txt
+&&
+	double amperson
+		ex : echo "tex" > satu.txt && echo "tek 2" > dua.txt && echo "tex 3" > tiga.txt
+
+================= ALIAS ===========================
+.bashrc
+
+================PIPELINE===============================
+History 
+	Liat semua perintah yang pernah dijalankan
+		ex : history | grep ssh
+Locate
+	mencari lokasi
+		ex : locate otodidak | grep svg
+PS AUX 
+	Melihat perintah yang berjalan
+		ex : ps aux | grep apache
+dpkg 
+	Melihat daftar package yang pernah terinstall
+		ex : dpkg l | grep vlc
+|
+	pipe, untuk menjalankan perintah lain
+		ex : dpkg l | grep kde | wc l
+grep 
+	Untuk mencari 
+		ex : locate ubuntu | grep -E iso$
+
+=================DOKUMENTASI===========================
+man
+	Melihat Manual perintah, bisa di copas
+		ex : man history
+info
+	Melihat Informasi
+help
+	Melihat help
+
+==================== Manajemen Direktori ================
+pwd
+	Melihat direktory saat ini
+ls
+	Melihat list isi dalam direktory
+cd
+	Pindah direktory
+mv
+	Memintahkan atau merename file/folder
+mkdir
+	membuat folder
+rm
+	menghapus folder
+
+============================
+	
+
+
+
+
+
+
+
+sumber belajar : Youtube Belajar GNU/Linux
