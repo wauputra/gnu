@@ -1,3 +1,99 @@
+Youtube : valid umar
+=====================17 perintah dasar=====================
+who
+	melihat user
+whoami
+	melihat user yg sedang aktif saat ini
+touch <namafile>
+	membuat file
+find
+	mencari file
+chmod
+	mengubah permission
+	rwx = 421, 3x pertama = usernya, 3x kedua = user lain, 3x ketiga lainnya
+chwon
+	mengubah kepemilikan
+cat	
+	menampilkan text
+lspci
+	menampilkan perangkat yg menggunakan pci
+uname
+	menampilkan system
+lsb_release -a
+	menampilkan versi distribusi linux versi
+
+grep
+	mencari karakter dalam sebuah file
+		ex : grep forward /ect/sysctl.conf
+nano 
+	text editor
+head
+	membaca kepala sebuah halaman/baris paling atas
+tail
+	membaca 10 paling bawah/beberapa
+df 
+	melihat statistik penggunaan disk
+du
+	menampilkan ringkasan penggunaan disk pada file
+rree
+	menampilkan memory ram
+adduser
+	menambahkan user baru
+tty2/login
+	untuk login user
+		atau ctl+alt+fn+f3 = full, ctr+alt+cn+f2 = untuk kembali
+			ex : login wauputra
+ifconfig
+	melihat informasi interface yg terhubung ke system
+dmesg
+	melihat process pada kernel
+whereis / which
+	mengetahui penyimpanan dari perintah
+		ex : whereis ls
+wc 
+	menghitung jumlah/ukuran dari kata dalam file
+		ex : wc catatan.txt
+dig
+	melakukan process resolving ke layanan internet
+	atau look up dns
+nslookup
+	informasi dns secara simple
+service
+	melakukan prosess, pengaktifan layanan/mematikan/restart
+ftp
+	melakukan process remote file
+	ex : ftp > open> domain 
+id	
+	informasi terkait login user 
+groupadd 
+	menambahkan group
+finger
+	melihat user yang saat ini aktif
+tar
+	membuat sebuah file yg terensipsi
+		ex : tar -cvf inifiletar.tar cobatar.txt cobatar2.txt
+	ekstrak
+		ex: tar -xvf inifiletar.tar
+arp
+	menampikan address resolution protocol, atau melihat hubungan router
+route
+	menampilkan informasi gateway yg terhubung
+lynx
+	menampilkan tampilan web sederhana berbasis web
+lsusb
+	menginformasikan port usb yg terhubung
+figlet
+	untuk mencetak text ASCII sehingga muncul pola
+
+==================== EMACS ===============================
+		adalah code editor dan compiler
+emacs -nw 
+	memulai window baru
+ctr+x, ctx+s
+	membuat file baru
+f10
+	membuka jendela panel
+
 =================== Managemen Process top ==================
 top
 	task manager
@@ -96,11 +192,4 @@ rm
 
 ============================
 	
-
-
-
-
-
-
-
 sumber belajar : Youtube Belajar GNU/Linux
